@@ -96,3 +96,10 @@ TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_USE_TOOLBOX := true
+TWRP_INCLUDE_LOGCAT := true
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
+TW_MAX_BRIGHTNESS := 2047
+TW_DEFAULT_BRIGHTNESS := 560
+
+# PBRC Configuration
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
