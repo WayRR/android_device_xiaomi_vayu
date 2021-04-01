@@ -101,5 +101,7 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 560
 
-# PBRC Configuration
-PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
+# SHRP Configuration
+SHRP_DEVICE_CODE := vayu
+SHRP_MAINTAINER := WayRR
+SHRP_EDL_MODE := 1
