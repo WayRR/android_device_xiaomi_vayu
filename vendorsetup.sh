@@ -1,0 +1,2 @@
+add_lunch_combo omni_vayu-userdebug
+add_lunch_combo omni_vayu-eng
